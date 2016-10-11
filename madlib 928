@@ -1,0 +1,14 @@
+puts "choose a name"
+name = gets.chomp
+puts "choose another name"
+another name = gets.chomp
+puts "choose a place"
+place = gets.chomp
+puts "choose a number"
+number = gets.chomp
+puts "How many miles away?"
+miles = to_i
+
+puts name + "went to a" + puts place + puts miles "miles away."
+puts "#{name} was excited on the way to #{place} and left early."
+puts "After walking #{number} blocks #{name} met #{another name} and they drove the rest of the way. "
